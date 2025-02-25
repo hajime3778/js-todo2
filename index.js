@@ -19,8 +19,8 @@ listItem.innerHTML = "hogehoge"; // liの中身を設定します
 
 // buttonを作成します
 const deleteButton = document.createElement("button");
-deleteButton.innerHTML = "DELETE"; // buttonのclassを設定します
-deleteButton.type = "button";      // buttonの中身を設定します
+deleteButton.innerHTML = "DELETE"; // buttonの中身を設定します
+deleteButton.type = "button";      // buttonのtypeを設定します
 
 // liの子要素として、buttonを追加します
 listItem.appendChild(deleteButton);
